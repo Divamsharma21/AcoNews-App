@@ -38,23 +38,24 @@ Build the application:
 yarn build
 The build files will be generated in the build directory.
 Deploying the Application
-Install Firebase CLI:
+👉Install Firebase CLI:
 
-npm install -g firebase-tools
-Login to Firebase:
+•npm install -g firebase-tools
 
- firebase login
-Initialize Firebase project:
+👉Login to Firebase:
+• firebase login
 
- firebase init
-Select Hosting and choose the Firebase project.
+👉Initialize Firebase project:
+ •firebase init
+ 
+👉Select Hosting and choose the Firebase project.
 
-Deploy the application:
+👉Deploy the application:
+•firebase deploy
 
-firebase deploy
-The application will be deployed to Firebase Hosting. https://aconews-app-8562d.web.app/
+👉The application will be deployed to Firebase Hosting. https://aconews-app-8562d.web.app/
 
 # Acknowledgements
-GNews API
-React
-Firebase
+•GNews API
+•React
+•Firebase
