@@ -36,26 +36,28 @@ The application will be running at http://localhost:3000.
 # Building the Application
 Build the application:
 yarn build
+
 The build files will be generated in the build directory.
-Deploying the Application
-👉Install Firebase CLI:
+  Deploying the Application
 
-•npm install -g firebase-tools
+ 👉Install Firebase CLI:
 
-👉Login to Firebase:
-• firebase login
+   •npm install -g firebase-tools
 
-👉Initialize Firebase project:
- •firebase init
+ 👉Login to Firebase:
+   • firebase login
+
+ 👉Initialize Firebase project:
+    •firebase init
  
-👉Select Hosting and choose the Firebase project.
+ 👉Select Hosting and choose the Firebase project.
 
-👉Deploy the application:
-•firebase deploy
+ 👉Deploy the application:
+   •firebase deploy
 
 👉The application will be deployed to Firebase Hosting. https://aconews-app-8562d.web.app/
 
 # Acknowledgements
-•GNews API
-•React
-•Firebase
+   •GNews API
+   •React
+   •Firebase
