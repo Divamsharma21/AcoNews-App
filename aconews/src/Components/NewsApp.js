@@ -127,7 +127,11 @@ const NewsApp = () => {
   return (
     <>
       <div>
-        <Navbar />
+        <Navbar   
+        value={searchTerm}
+          onChange={handleSearch}
+            onClick={fetchNews}
+          />
         <div className="flex flex-row justify-center mb-5 mx-3 mt-4 gap-4    ">
           {categories.map((category) => (
             <button
@@ -139,13 +143,13 @@ const NewsApp = () => {
             </button>
           ))}
         </div>
-        <input
+        {/* <input
           type="search"
           value={searchTerm}
           onChange={handleSearch}
           placeholder="Search news titles..."
           className="bg-gray-200 py-2 px-4 rounded-md w-full"
-        />
+        /> */}
       </div>
 
       {loading ? (
